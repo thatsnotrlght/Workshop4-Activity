@@ -48,3 +48,6 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+statusBtn.addEventListener("click", () => {
+  statusBtn.disabled = true;
+});
